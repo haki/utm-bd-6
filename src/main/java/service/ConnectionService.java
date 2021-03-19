@@ -17,7 +17,7 @@ public class ConnectionService {
             System.out.println("Connecting to a selected database...");
 
             conn = DriverManager.getConnection(DB_URL, username, password);
-            System.out.println("Connected database successfully.");
+            System.out.println("Connected database successfully..");
 
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
